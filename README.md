@@ -11,25 +11,27 @@ The resources for the steps below and courses can be found here.
 
 Finishing this in a few months should give a strong fundamental understanding of ML, before moving on to deep learning and other complex problems like recommender systems, dealing with images, NLP etc. This focuses on supervised regression and classification.
 
-* Linear algebra and statistics (links in resources section) - having a grasp over Gaussian distributions and matrix transformations helps a lot in the long run. 12th grade calculus should do for differentiation.
+* Linear algebra, Statistics, Probability and Coordinate Geometry (links in resources section) - having a grasp over Gaussian distribution, matrix transformations and an understanding of basic geometric curves helps a lot in the long run. 12th grade calculus should do for differentiation.
 * Set up [jupyter notebook](https://www.dataquest.io/blog/jupyter-notebook-tutorial/)
 * Using NumPy to do basic matrix and vector operations - [good starting point](https://cs231n.github.io/python-numpy-tutorial/#numpy)
 * Understand the basic components of an ML pipeline (analysing data, data cleaning, splitting, scaling and encoding, model training, analysing performance metrics) - each component is dealt in depth later (a good [infographic](https://preview.redd.it/cfejji2hnsa41.jpg?auto=webp&s=44738c855b6ee40d3c58a099c22d2f9f48b80df9))
 * Generate simple straight line datapoints from an equation with NumPy
-* Learn how data is split to validate and test models in ML
+* Learn what train and validation data mean and how the dataset is split when bulding models in ML
 * Understand how linear regression can model this type of data
-* Understand why loss functions are used in ML
+* Understand what loss functions are why they are used in ML
 * Implement gradient descent from scratch with NumPy
 * Code a simple training loop to train the model with gradient descent to optimise the loss
 * Modify linear regression to work as logistic regression for classification
 * Detecting overfitting, the bias-variance tradeoff and adding regularisation
 * Learn Naive-Bayes (if possible, implement it with binary training data)
+* Understanding the Pandas library and how to move around and operate on large datasets - [A Quick Introduction](https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html)
 * Load a real world dataset (eg: Graduate Admissions, iris) with Pandas
+* Understand the difference between coninuous and categorical data
 * Learn the reasoning behind data normalisation and different categorical encoding methods
-* Start off with the scikit-learn library (docs are a good place to start) to split, scale data and train models on this dataset
+* Start off with the scikit-learn library ([docs](https://scikit-learn.org/0.21/documentation.html) are a good place to start) to split, scale data and train models on this dataset
 * Cleaning datasets, analysing correlations, heatmaps (using matplotlib) etc. - very extensive subject (top-rated [Kaggle](kaggle.com) notebooks explain these well)
 * Understand how features should be selected and engineered in ML
-* Analysing models: Understanding metrics to use for classification and regression, uning hyperparameters, learning curves
+* Analysing models: Understanding metrics to use for classification and regression, tuning hyperparameters, learning curves
 * Setup a simple pipeline that integrates all of the above steps into a single notebook
 * Explore [Kaggle](kaggle.com) for datasets and notebooks. Try approaching a more challenging dataset, read through top-rated notebooks and user discussions, replicate their ideas for your ML problem.
 
