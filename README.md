@@ -3,7 +3,8 @@
 This repository contains all resources and code used in the Coding Club ML sessions. This will be updated periodically. The resources for each meet can be found in their respective folders.
 
 ## Meets:
-[1. Intro to ML - Roadmap and Scope (19/07/2021)](./Meet-1)
+[1. Intro to ML - Roadmap and Scope (19/09/2021)](./Meet-1) <br />
+[2. Building an ML pipeline from scratch (03/10/2021)](./Meet-2)
 
 ## Roadmap:
 The following roadmap outlines how to approach the coding side of ML systematically, focussing on core concepts from scratch first before moving on to using libraries.
