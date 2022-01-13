@@ -3,4 +3,4 @@
 
 If you have issues viewing the notebook code on GitHub, open [Colab](https://colab.research.google.com/) and open the notebook through the GitHub option by giving this link: https://github.com/ssncodingclub/Machine-Learning/blob/master/Meet-2/RegressionPipeline.ipynb
 
-[Link to recording](https://ssneduin.sharepoint.com/:v:/r/sites/SSNCodingClub/Shared%20Documents/ML-AI/Recordings/Build%20an%20ML%20Pipeline%20From%20Scratch-20211003_160547-Meeting%20Recording.mp4?csf=1&web=1&e=ppBVEh)
+[Link to recording](https://drive.google.com/file/d/13qAwL4qAGZM2PWDsVroYkav_U1auelOm/view?usp=sharing)
