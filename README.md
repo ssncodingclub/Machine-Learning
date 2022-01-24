@@ -6,7 +6,8 @@ This repository contains all resources and code used in the Coding Club ML sessi
 [1. Intro to ML - Roadmap and Scope (19/09/2021)](./Meet-1) <br />
 [2. Building an ML pipeline from scratch (03/10/2021)](./Meet-2) <br />
 [3. Freshers Meet + Recap of first 2 meets (24/12/2021)](./Meet-3) <br />
-[4. Building a Sudoku Solver (1/2): Simple Image Classifier (12/01/2022)](./Meet-4)
+[4. Building a Sudoku Solver (1/2): Simple Image Classifier (12/01/2022)](./Meet-4) <br />
+[5. Building a Sudoku Solver (2/2): Deep Neural Networks (24/01/2022)](./Meet-5)
 
 ## Roadmap:
 The following roadmap outlines how to approach the coding side of ML systematically, focussing on core concepts from scratch first before moving on to using libraries.
@@ -32,7 +33,7 @@ Finishing this in a few months should give a strong fundamental understanding of
 * Understand the difference between coninuous and categorical data
 * Learn the reasoning behind data normalisation and different categorical encoding methods
 * Start off with the scikit-learn library ([docs](https://scikit-learn.org/0.21/documentation.html) are a good place to start) to split, scale data and train models on this dataset
-* Cleaning datasets, analysing correlations, heatmaps (using matplotlib) etc. - very extensive subject (top-rated [Kaggle](kaggle.com) notebooks explain these well)
+* Cleaning datasets, analysing correlations, heatmaps (using matplotlib) etc. - very extensive subject (top-rated [Kaggle](https://www.kaggle.com) notebooks explain these well)
 * Understand how features should be selected and engineered in ML
 * Analysing models: Understanding metrics to use for classification and regression, tuning hyperparameters, learning curves
 * Setup a simple pipeline that integrates all of the above steps into a single notebook
