@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+
+    <!-- Load TensorFlow.js -->
+    <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@0.14.1/dist/tf.min.js"> </script>
+  </head>
+  <body>
+
+    Petal Length: <input type="text" id="plength" />
+    Petal Width: <input type="text" id="pwidth" /><br><br>
+    Sepal Length: <input type="text" id="slength" />
+    Sepal Width: <input type="text" id="swidth" />
+    <br>
+    <input type="button" id="append" value="Submit">
+    <script>
+        let model=null;
+        async function loadModel() {
+            model = await tf.loadModel('http://localhost:8080/model/model.json');
+        }        
+        loadModel();
+
+        // this function runs after the submit button is clicked
+        document.getElementById("append").onclick = function(){
+            let plength = document.getElementById("plength").value;
+            let pwidth = document.getElementById("pwidth").value; 
+            let slength = document.getElementById("slength").value; 
+            let swidth = document.getElementById("swidth").value; 
+            bestfit = model.predict(tf.tensor([Number(slength),Number(swidth),Number(swidth),Number(swidth)], shape = [1, 4])).print();
+        }
+    </script>
+  </body>
+</html>
