@@ -14,17 +14,22 @@
 
 <body style="background: #000;">
   <div class="login">
-    <h1>Salary Prediction</h1>
+    <h1>Handwritten Digit Prediction</h1>
 
     <!-- Main Input For Receiving Query to our ML -->
-    <form action="{{ url_for('predict')}}" method="POST" enctype="multipart/form-data">
+    <form method="POST" enctype="multipart/form-data">
       <input type="file" name="imagefile" id="imagefile" />
       <input type="submit" value="Predict" class="btn btn-primary btn-block btn-large" />
     </form>
 
     <br>
     <br>
+
+    {% if display_img %}
+    <img src="{{ url_for('static', filename=display_img)}}" width="50" height="50" />
+    <br /><br />
     {{ prediction_text }}
+    {% endif %}
 
   </div>
 </body>
