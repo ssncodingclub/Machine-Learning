@@ -7,7 +7,8 @@ This repository contains all resources and code used in the Coding Club ML sessi
 [2. Building an ML pipeline from scratch (03/10/2021)](./Meet-2) <br />
 [3. Freshers Meet + Recap of first 2 meets (24/12/2021)](./Meet-3) <br />
 [4. Building a Sudoku Solver (1/2): Simple Image Classifier (12/01/2022)](./Meet-4) <br />
-[5. Building a Sudoku Solver (2/2): Deep Neural Networks (24/01/2022)](./Meet-5)
+[5. Building a Sudoku Solver (2/2): Deep Neural Networks (24/01/2022)](./Meet-5) <br />
+[6. Deploying ML Models (27/03/2022)](./Meet-6)
 
 ## Roadmap:
 The following roadmap outlines how to approach the coding side of ML systematically, focussing on core concepts from scratch first before moving on to using libraries.
