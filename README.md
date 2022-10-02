@@ -67,7 +67,7 @@ For starting out in ML, basic background in linear algebra and statistics (proba
 * [Neural networks and deep learning](http://neuralnetworksanddeeplearning.com/) - Best resource for understanding deep learning fundamentals from scratch, with code.
 * [Neural networks playlist by 3Blue1Brown](https://www.youtube.com/watch?v=aircAruvnKk) - Visualising how neural networks work and learn from data.
 
-## Upcoming Sessions:
+## In Upcoming Sessions:
 
 Tentatively, the upcoming sessions will focus on teaching core ML concepts, building simple ML models, understanding how to analyse and improve their performance, why deep learning is needed, the current state of ML research and how ML models are deployed.
 
